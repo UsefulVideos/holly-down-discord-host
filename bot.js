@@ -5,4 +5,4 @@ client.once('ready', () => {
     console.log('Ready!');
 });
 
-client.login('NTMzNjUxNjI1MjgyMzcxNTk0.DxuLCQ.GDEt3cqbnVSr8xN6lJV7uIYfypQ');
+client.login('token');
