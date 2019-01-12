@@ -1,1 +1,1 @@
-Useful's discord bot
+Useful's second discord bot
