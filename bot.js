@@ -8,6 +8,8 @@ client.once('ready', () => {
     console.log('Ready!');
 });
 client.on('message', message => {
+    if (!message.content.startsWith(prefix) || message.author.bot) return;
+    
     if (message.content === `${prefix}ping`) {
     message.channel.send('Pong.');
 }
