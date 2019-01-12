@@ -7,5 +7,7 @@ const ownerid = process.env.OWNER_ID;
 client.once('ready', () => {
     console.log('Ready!');
 });
-
+client.on('message', message => {
+    console.log(client.message.content);
+});
 client.login(token);
